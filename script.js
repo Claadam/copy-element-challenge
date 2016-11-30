@@ -8,6 +8,11 @@
 var elementsList = $("#elements-list")
 var a = ["#fc7814", "#ff9d00", "#ffe20c", "#e2ff0c", "#81ff0c", "#29ff0c", "#0cff89", "#0cfff6", "#0ccaff", "#0c69ff","#0c10ff", "#590cff", "#9e0cff", "#da0cff"]
 
+var b = ["#ff0cb6", "#fc7814", "#ff9d00", "#ffe20c", "#e2ff0c", "#81ff0c", "#29ff0c", "#0cff89", "#0cfff6", "#0ccaff", "#0c69ff","#0c10ff", "#590cff"]
+
+var c = []
+
 a.forEach(function(color){
   $("#element").clone().css({background: color}).appendTo(elementsList)
 })
+
