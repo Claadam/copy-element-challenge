@@ -10,4 +10,5 @@ var elementsList = $("#elements-list")
 
 for (i = 0; i < 5; i++) {
   $(".element").clone().appendTo(elementsList)
+  $(".element").css("color: ")
 }
