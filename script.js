@@ -7,10 +7,10 @@
 
 var elementsList = $("#elements-list")
 
-var a = ["blue", "violet", "cyan", "aquamarine", "cornsilk", "maroon", "pink"]
+var a = ["blue", "violet", "cyan", "aquamarine", "cornsilk", "maroon", "pink", "yellow", "goldenrod",]
 
 a.forEach(function(color){
-  $(".element").clone().css({background: color}).appendTo(elementsList)
+  $("#element").clone().css({background: color}).appendTo(elementsList)
 })
 
 //for (i = 0; i < 5; i++) {
