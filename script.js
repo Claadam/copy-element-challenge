@@ -10,5 +10,5 @@ var elementsList = $("#elements-list")
 
 for (i = 0; i < 5; i++) {
   $(".element").clone().appendTo(elementsList)
-  elementsList.css("color: #34ba67;")
+  elementsList.css({background: "#34ba67;"})
 }
