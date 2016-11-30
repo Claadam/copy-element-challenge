@@ -9,8 +9,7 @@ var elementsList = $("#elements-list")
 
 
 for (i = 0; i < 5; i++) {
-  color = 112385*i
+  color = 112385*(i+1)
   colorCSS = "#" + color
-  $(".element").clone().appendTo(elementsList)
-  elementsList.css({background: colorCSS})
+  $(".element").clone() .css({background: colorCSS}).appendTo(elementsList)
 }
