@@ -7,10 +7,13 @@
 
 var elementsList = $("#elements-list")
 
-var a = ["blue", "violet", "cyan", "aquamarine", "cornsilk", "maroon", ""]
+var a = ["blue", "violet", "cyan", "aquamarine", "cornsilk", "maroon", "pink"]
 
 for (i = 0; i < 5; i++) {
-  color = 171092*(i+1)
-  colorCSS = "#" + color
+//  color = 171092*(i+1)
+//  colorCSS = "#" + color
+  a.forEach(function(color){
+   console.log(color) 
+  }
   $(".element").clone() .css({background: colorCSS}).appendTo(elementsList)
 }
