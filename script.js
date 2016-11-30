@@ -6,5 +6,8 @@
 // 5. how do you repeat this multiple times, for multiple colors??? There is a nice data structure for this kind of thing.
 
 var elementsList = $("#elements-list")
-var a = ["blue", "violet", "cyan", "aquamarine", "cornsilk", "maroon", "pink", "yellow", "goldenrod", "green"]
-a.forEach(function(color){  $("#element").clone().css({background: color}).appendTo(elementsList)})
+var a = ["#fc1414", "violet", "cyan", "aquamarine", "cornsilk", "maroon", "pink", "yellow", "goldenrod", "green"]
+
+a.forEach(function(color){
+  $("#element").clone().css({background: color}).appendTo(elementsList)
+})
